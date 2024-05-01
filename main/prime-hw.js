@@ -14,8 +14,9 @@ console.log(
 			<< 2n // bit-shift rather than `2n * 2n`
 		)
 			.toString(1 << (2 + 2)) // hex
-			.matchAll(/.{2}/g) // split into chunks of nibble-pairs
-	)] // `matchAll` instead of `match`, to abuse spread-syntax and `map`
+			// split into chunks of nibble-pairs
+			.matchAll(/.{2}/g) // `matchAll` instead of `match`, to abuse spread-syntax and `map`
+	)]
 		.map(v => String.fromCharCode(parseInt(v[0], 2 ** 4)))
 		.join('')
 )
