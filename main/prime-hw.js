@@ -1,6 +1,6 @@
 'use strict'
 /*
-port of this Py script: https://gist.github.com/raymonstah/5462963e2e857d327965
+quasi-port of this Py script: https://gist.github.com/raymonstah/5462963e2e857d327965
 ℹ️: https://raymonstah.github.io/posts/2016-06-19-python-hello-world-with-prime-numbers
 */
 console.log(
